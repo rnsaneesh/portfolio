@@ -17,6 +17,7 @@ const Home=({onScroll})=>{
               float: "right",
               marginTop: "-60px",
               zIndex: "2",
+              
             }}
           />
         </div>
@@ -33,7 +34,7 @@ const Home=({onScroll})=>{
           about my projects, skills, and the impact I aim to make in the field
           of CyberSecurity.
         </p>
-        <button onClick={onScroll} style={{ marginTop: "20px" }}>
+        <button onClick={onScroll} style={{ marginTop: "20px",backgroundColor:"transparent",color:"whitesmoke",border:"1px solid white" }} className="btn">
           Contact Me
         </button>
       </div>

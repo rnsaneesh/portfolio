@@ -1,13 +1,12 @@
 
 .footer {
-    background-color: #222;
+    
     color: #fff;
     text-align: center;
     padding: 20px 10px;
     position:relative;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
     margin :0%;
 }
 
@@ -18,7 +17,7 @@
 .contact-info h3 {
     margin: 0;
     font-size: 20px;
-    color: #f39c12;
+    color:linear-gradient();
 }
 
 .contact-info p {
@@ -43,10 +42,9 @@
 }
 
 .social-links a:hover {
-    color: #f39c12;
+    fill:#f39c12;
+    box-shadow: 0 12px 24px rgb(255, 255, 255);
+    
 }
 
-.copyright {
-    font-size: 12px;
-    color: #aaa;
-}
+

@@ -1,3 +1,46 @@
+@keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color:gold;
+    }
+  }
+  @keyframes gradientChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
 .home{
     padding-top:20px;
      margin-top: 50px ;
@@ -5,4 +48,41 @@
 }
 .home p{
     margin-top: 10px;
+    margin-right: 320px;
+    text-align: justify;
+    z-index: 3;
+    animation: slideInLeft 3s ease forwards;
+    
 }
+.home p:hover{
+    box-shadow: 12px 12px 12px 12px rgb(255, 255, 255,0.3);
+}
+ .home img{
+    animation: slideInRight 3s ease forwards;
+ }
+
+ .home .btn{
+    opacity: 0;
+    border-radius: 2rem;
+    padding:5px;
+    animation: fadeIn 3s ease forwards;
+    animation-delay: 2s;
+ }
+
+
+ .home h1 {
+    font-size: 2.5em;
+    background: linear-gradient(
+      90deg,
+      #ff0066,
+      #ffcc00,
+      #33ccff,
+      #ff00cc,
+      #ff0066
+    );
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeIn 3s ease forwards, gradientChange 6s linear infinite;
+  }
+  
