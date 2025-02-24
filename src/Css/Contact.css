@@ -1,0 +1,52 @@
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    margin :0%;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #f39c12;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    
+}
+.contact-info p:hover{
+    color: #f39c12;
+}
+
+.social-links {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #f39c12;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #aaa;
+}

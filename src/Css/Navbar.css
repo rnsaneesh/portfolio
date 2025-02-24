@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    
+}
+
+nav  {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    margin :0;
+    
+
+  }
+ul{
+    display :flex;
+    list-style-type: none;
+    
+    padding: 30px;
+}
+ul li{
+    justify-content: space-around;
+    padding-right: 20px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+    
+}
+.port{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
